@@ -1,0 +1,113 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions",Universe,"Variable List"
+"Distribution of after-tax income, individuals",11100166,202-0602,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110016601",1;2;7,"ARCHIVED -  a cube publicly available but no longer being updated",Annual,1976-01-01,2011-01-01,2,,
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,,,
+2,"Income group",,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,Canada,,1,,,,,,
+1,"Atlantic provinces",,2,1,,,,,
+1,"Newfoundland and Labrador",,3,2,,,,,
+1,"Prince Edward Island",,4,2,,,,,
+1,"Nova Scotia",,5,2,,,,,
+1,"New Brunswick",,6,2,,,,,
+1,Quebec,,7,1,,,,,
+1,Ontario,,8,1,,,,,
+1,"Prairie provinces",,9,1,,,,,
+1,Manitoba,,10,9,,,,,
+1,Saskatchewan,,11,9,,,,,
+1,Alberta,,12,9,,,,,
+1,"British Columbia",,13,1,,,,,
+1,"Halifax, Nova Scotia",[12205],14,29,,,,,
+1,"Québec, Quebec",[24421],15,29,,,,,
+1,"Montréal, Quebec",[24462],16,29,,,,,
+1,"Ottawa-Gatineau, Ontario/Quebec","[24505, 35505]",17,29,,3,,,
+1,"Toronto, Ontario",[35535],18,29,,,,,
+1,"Hamilton, Ontario",[35537],19,29,,4,,,
+1,"St. Catharines-Niagara, Ontario",[35539],20,29,,,,,
+1,"Kitchener-Cambridge-Waterloo, Ontario",[35541],21,29,,5,,,
+1,"London, Ontario",[35555],22,29,,,,,
+1,"Windsor, Ontario",[35559],23,29,,,,,
+1,"Winnipeg, Manitoba",[46602],24,29,,,,,
+1,"Calgary, Alberta",[48825],25,29,,,,,
+1,"Edmonton, Alberta",[48835],26,29,,,,,
+1,"Vancouver, British Columbia",[59933],27,29,,,,,
+1,"Victoria, British Columbia",[59935],28,29,,,,,
+1,"Total selected census metropolitan areas",,29,,,,,,
+1,"All other non-selected areas",,30,,,,,,
+1,"St. John's, Newfoundland and Labrador",[10001],31,29,,6,,,
+1,"Sherbrooke, Quebec",[24433],32,29,,6,,,
+1,"Oshawa, Ontario",[35532],33,29,,6,,,
+1,"Regina, Saskatchewan",[47705],34,29,,6,,,
+1,"Saskatoon, Saskatchewan",[47725],35,29,,6,,,
+2,"Average income",,1,,,,,,
+2,"Median income",,2,,,,,,
+2,"Number of persons",,3,,,,,,
+2,"Percentage without income",,5,,,,,,
+2,"Percentage with income",,6,,,,,,
+2,"Percentage under $10,000 (including loss)",,7,,,,,,
+2,"$10,000 to $19,999",,8,,,,,,
+2,"$20,000 to $29,999",,9,,,,,,
+2,"$30,000 to $39,999",,10,,,,,,
+2,"$40,000 to $49,999",,11,,,,,,
+2,"$50,000 to $59,999",,12,,,,,,
+2,"$60,000 and over",,13,,,,,,
+2,"Under $5,000 (including loss)",,15,7,,,,,
+2,"$5,000 to $9,999",,16,7,,,,,
+2,"$10,000 to $14,999",,17,8,,,,,
+2,"$15,000 to $19,999",,18,8,,,,,
+2,"$20,000 to $24,999",,19,9,,,,,
+2,"$25,000 to $29,999",,20,9,,,,,
+2,"$30,000 to $34,999",,21,10,,,,,
+2,"$35,000 to $39,999",,22,10,,,,,
+2,"$40,000 to $44,999",,23,11,,,,,
+2,"$45,000 to $49,999",,24,11,,,,,
+2,"$50,000 to $54,999",,25,12,,,,,
+2,"$55,000 to $59,999",,26,12,,,,,
+2,"$60,000 to $64,999",,27,13,,,,,
+2,"$65,000 to $69,999",,28,13,,,,,
+2,"$70,000 to $74,999",,29,13,,,,,
+2,"$75,000 to $79,999",,30,13,,,,,
+2,"$80,000 to $84,999",,31,13,,,,,
+2,"$85,000 to $89,999",,32,13,,,,,
+2,"$90,000 to $99,999",,33,13,,,,,
+2,"$100,000 to $124,999",,34,13,,,,,
+2,"$125,000 to $149,999",,35,13,,,,,
+2,"$150,000 and over",,36,13,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3889,"Survey of Labour and Income Dynamics"
+
+"Subject Code","Subject Name"
+11,"Income, pensions, spending and wealth"
+
+"Note ID",Note
+1,"Source: Income Statistics Division, Statistics Canada"
+2,"Data quality indicators are based on the coefficient of variation (CV) and number of observations. Quality indicators indicate the following: A - Excellent (CV between 0% and 2%); B - Very good (CV between 2% and 4%); C - Good (CV between 4% and 8%); D - Acceptable (CV between 8% and 16%); E - Use with caution (CV greater than or equal to 16%)."
+3,"Formerly Ottawa-Hull."
+4,"Formerly Hamilton-Burlington."
+5,"Formerly Kitchener."
+6,"Data for this census metropolitan area are available only from 1998."
+7,"Selected income time series from CANSIM 202* tables are now available in CANSIM 206* tables."
+
+"Dimension ID","Member ID","Attribute Key",Title,Label,"Long Label",Value
+
+
