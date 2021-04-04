@@ -1,4 +1,4 @@
-name: appChallenge25
+name: appChallenge
 channels:
   - esri
   - conda-forge
