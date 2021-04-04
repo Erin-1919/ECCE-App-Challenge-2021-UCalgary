@@ -41,7 +41,7 @@ To learn about how this project was developed, and the technologies used, please
 When working with lots of different types of data coming from different sources, a common standardized framework is needed to organize and integrate the data into a spatial platform. A Discrete Global Grid System (DGGS) is a proper candidate for this task, being an informational referencing system. A DGGS uses a hierarchical tessellation of uniform cells, to partition and address the entire Earth’s surface. These systems have demonstrated their power in data integration, multi-scale analysis, consistent observations, accurate analysis, and parallel computation [4,5]. Over the years, a variety of state-of-the-art DGGS implementations have been proposed, such as H3, DGGRID, OpenEAGGR and PYXIS [6-9]. To develop our app, the open-sourced DGGS library H3 was used.
 
 # Data processing with H3 library
-Please find the Jupyter Notebooks in the [notebook folder](https://github.com/Erin-1919/ECCE-App-Challenge-2021-UCalgary/tree/main/notebooks) of this repository. The folder includes a environment file for creating a conda environment to run the jupyter notebook. You may run the following command:
+Please find the Jupyter Notebooks in the [notebook folder](https://github.com/Erin-1919/ECCE-App-Challenge-2021-UCalgary/tree/main/notebooks) of this repository. The folder includes an environment file for creating a conda environment to run the jupyter notebook. You may run the following command:
 
 `conda env create -f environment.yml`
 
