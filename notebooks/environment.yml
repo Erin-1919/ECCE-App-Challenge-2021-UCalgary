@@ -1,4 +1,4 @@
-name: appChallenge
+name: appChallenge25
 channels:
   - esri
   - conda-forge
@@ -13,4 +13,3 @@ dependencies:
   - h3-py
   - rtree=0.9.3
   - arcgis
-prefix: C:\Users\mpr_1\miniconda3\envs\appChallenge
