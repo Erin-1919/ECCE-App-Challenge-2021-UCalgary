@@ -1,3 +1,8 @@
+# App: INcreaseEquality
+Main app: https://experience.arcgis.com/experience/31ff11c11bbf4d1fb959b46884889f9a
+
+Making-of app: https://experience.arcgis.com/experience/adf4eed8b9284d16aba3483f33880016
+
 # Mission statement
 Inequality has been on the rise all around the world for decades. In 2015, the United Nations announced 17 goals for sustainable development, among which Goal 10 aimed to reduce inequality within and among countries [1]. Generally, inequality exists among income, health, education, regions, well-being, and more. 
 
